@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>HTML layout using  Tables</title>
+    </head>
+    
+    
+    <style>    
+        *{
+            font-family: Arial;
+        }
+
+        .shop{
+            color: black;
+        }
+    
+        .shop a{
+            color: black;
+            font-size: 20px;
+            transition: all .3s ease;
+            text-decoration: none;
+        }
+
+        .shop a:hover{
+            color: #9A031E;
+        }
+
+        .button a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+    <body>
+        <table width="100%" border="0">
+           
+            <tr valign="top">
+                <td bgcolor="F9EFDB" width="50">
+                    <b><ul class="shop">
+                    <b><h1>Main Menu</h1></b><br />
+                    <li><a href="main.html">Home</a><br /></li>
+                    <br>
+                    <li><a href="about.html">About Us</a><br /></li> 
+                    <br>
+                    <li><a href="contact.html">Contact Us</a><br /></li>
+                    <br>
+                    <li><a href="announcement.html">Announcement</a><br /></li>
+                    <br>
+                    <li><a href="registration.html">Registration</a><br /></li>
+                    <br>
+                    <li><a href="reservation.html">Reservation</a><br /></li>
+
+                    <h1>Categories</h1>
+                    <br>
+                    <li><a href="petaccessories.html">Pet Accessories</a><br /></li>
+                    <br>
+                    <li><a href="grooming.html">Professional Grooming</a><br /></li> 
+                    <br>
+                    <li><a href="care.html">Health Care</a><br /></li>
+                    <br>
+                    <li><a href="food.html">Natural Pet Food</a><br /></li>
+                    <br>
+                    <li><a href="needs.html">Essential Needs</a></li>
+                    <br>
+                    <li><a href="pet shop.html">Pet Shop</a><br /></li>
+                    </ul></b>
+                </td>
+
+                <style>
+                    .home{
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                </style>
+                
+                <td bgcolor="EBD9B4" width="500" height="720">
+                    <table border="0">
+                </td>
+                <br>
+                <div class="home">
+                    <h1>
+                        <p style="font-family:'Lucida Handwriting'">Pet Daycare Reservation </p>
+                        
+                    </h1>
+                </div>
+
+                 
+                    <form> 
+                    <center> <form action="registration.html"> </center>
+                       
+                            <center><h1>Reservation Form</h1></center>
+                            <center>For Inquiry/Concern</center>
+                        <br>
+                            <center><label for="fname">First Name:</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br></center>
+    
+                            <center><label for="lname">Last Name:</label><br>
+                                <input type="text" id="lname" name="lname" value=""><br></center>
+     
+                            <center><label for="add">Address:</label><br>
+                                <input type="text" id="add" name="add" value=""><br></center>
+                            
+                            <center><label for="cp">Contact Number:</label><br>
+                                <input type="text" id="cp" name="cp" value=""><br></center>
+
+                                <center><br>Date of Booking: <br>
+                                    <input type="text" id="cp" name="date" value=""><br></center>
+                            
+                            <center><br>Description: <br>
+                                <textarea name="description" cols="50" rows="5"></textarea></center>
+            
+                                <center><br><button class="button"><a href="thankyou.html">Submit</a></button></center>
+                        </td>
+                    </form> 
+      
+        </table>
+    </body>
+</html>

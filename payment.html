@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>HTML layout using  Tables</title>
+    </head>
+    
+    
+    <style>    
+        *{
+            font-family: Arial;
+        }
+
+        .shop{
+            color: black;
+        }
+    
+        .shop a{
+            color: black;
+            font-size: 20px;
+            transition: all .3s ease;
+            text-decoration: none;
+        }
+
+        .shop a:hover{
+            color: #9A031E;
+        }
+
+        .button a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+    <body>
+        <table width="100%" border="0">
+            <tr>
+                <td colspan="2" bgcolor="D4E7C5">
+                    <center><img src="Screenshot_20240119-165138-removebg-preview.png" alt=""></center>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td bgcolor="F9EFDB" width="50">
+                    <b><ul class="shop">
+                    <b><h1>Main Menu</h1></b><br />
+                    <li><a href="main.html">Home</a><br /></li>
+                    <br>
+                    <li><a href="about.html">About Us</a><br /></li> 
+                    <br>
+                    <li><a href="contact.html">Contact Us</a><br /></li>
+                    <br>
+                    <li><a href="announcement.html">Announcement</a><br /></li>
+                    <br>
+                    <li><a href="registration.html">Registration</a><br /></li>
+                    <br>
+                    <li><a href="reservation.html">Reservation</a><br /></li>
+
+                    <h1>Categories</h1>
+                    <br>
+                    <li><a href="petaccessories.html">Pet Accessories</a><br /></li>
+                    <br>
+                    <li><a href="grooming.html">Professional Grooming</a><br /></li> 
+                    <br>
+                    <li><a href="care.html">Health Care</a><br /></li>
+                    <br>
+                    <li><a href="food.html">Natural Pet Food</a><br /></li>
+                    <br>
+                    <li><a href="needs.html">Essential Needs</a></li>
+                    <br>
+                    <li><a href="pet shop.html">Pet Shop</a><br /></li>
+                    </ul></b>
+                </td>
+                
+                
+                <td bgcolor="pink" width="100" height="700">
+    <table border="1">
+        <div class="checkout-container">
+            <h2>Payment Method</h2>
+    
+            <form action="#" method="post">
+               
+               <center>  <fieldset>
+                <legend>Shipping Information</legend>
+                <p>Name: </p>
+                <input type="text" required>
+                <p>Address: </p>
+                <input type="text" required>
+                <p>Email: </p>
+                <input type="text" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Payment Information</legend>
+                    <p>Card Number: </p>
+                    <input type="text" required>
+                    <p>Expiry date: </p>
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/DD/YY" required>
+                    <p>Security Code: </p>
+                    <input type="text" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Order Summary</legend>
+                    <p>Product Name: </p>
+                    <input type="text" required>
+                    <p>Quantity: </p>
+                    <input type="text" required>
+                    <p>Total:</p>
+                    <input type="text" required>
+                </fieldset> </center>
+    
+                <br><button class="button"><a href="thankyou.html">Complete Purchase</a></button>
+                
+            </form>
+        </div>
